@@ -10,3 +10,12 @@ The goal is to find out which advertisement is most appealing by the most number
 In real life, we could get the dataset in R by data streaming, for instance using Spark or Hive, which means this is applicable in real time. In our case, we just wanted to evaluate the different models by simulating datasets.
 
 # Upper Confidence Bound vs Thompson Sampling
+UCB:
+* Deterministic
+* Requires update at every round
+
+Thompson Sampling:
+* Probabilistic
+* Can accomodate delayed feedback
+
+Thompson Sampling is much better than UCB in terms of convergence of regret.
