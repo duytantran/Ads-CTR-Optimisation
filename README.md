@@ -17,5 +17,6 @@ UCB:
 Thompson Sampling:
 * Probabilistic
 * Can accomodate delayed feedback
+* Better empirical evidence
 
 Thompson Sampling is much better than UCB in terms of convergence of regret.
